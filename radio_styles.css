@@ -1,0 +1,32 @@
+html{
+    background-color:#222222;
+    color:rgb(179, 166, 166) ;
+    font-family:sans-serif;  
+    font-size: 1.3em ;
+}
+ul{
+    list-style-position: inside;
+    list-style-image: url("button.svg");
+    padding-left:70px;
+}
+ul:hover{
+    list-style-type: none;
+}
+li{
+    padding: 20px 10px 20px;
+    border-bottom: 0.1px solid rgb(102, 102, 102);
+}
+li:hover{
+    color: white;
+    list-style-image: url('button_after.svg');
+}
+li:focus{
+    color: aqua;
+    list-style-image: url('button_clicked.svg');
+}
+.country{
+
+    position: fixed;
+    margin-top: 3.7px;
+    padding-left: 20px;
+}
